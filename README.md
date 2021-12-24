@@ -3,7 +3,7 @@
 It's a simple web application to know about NFT info.
 
 <h2 align="center">
-  <a href="https://angry-penguines.vercel.app/" target="_blank">Star Wars</a>
+  <a href="https://angry-penguines.vercel.app/" target="_blank">Angry Penguins NFT</a>
 </h2>
 
 <p align="center">
@@ -11,7 +11,7 @@ It's a simple web application to know about NFT info.
 </p>
 
 <p align="center">
-<img src="https://github.com/kerrybli/portfolio/blob/master/src/assests/images/star-wars.png?raw=true">
+<img src="./assests/images/landing-page.png>
 </p>
 
 ## Built With
