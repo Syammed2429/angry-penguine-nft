@@ -27,10 +27,10 @@ This project was built using these technologies.
 
 ## Features are: 😀
 
-- Search bar to search your characters.
 - Mute and Un-mute Button.
 - New icons are added to the bottom taskbar.
 - Dark background with animation.
+-
 
 ### Show your support
 
