@@ -31,7 +31,7 @@ jQuery(document).ready(function () {
         touchDrag: true,
     });
     jQuery("#slider_2").css("visibility", "visible");
-    var owl_goto = jQuery("#slider_2");
+    let owl_goto = jQuery("#slider_2");
     jQuery(".slider_2_goto1").click(function (event) {
         owl_goto.trigger("to.owl.carousel", 0);
     });
@@ -71,12 +71,12 @@ jQuery(document).ready(function () {
     jQuery(".slider_2_goto13").click(function (event) {
         owl_goto.trigger("to.owl.carousel", 12);
     });
-    var resize_37 = jQuery(".owl-carousel");
+    let resize_37 = jQuery(".owl-carousel");
     resize_37.on("initialized.owl.carousel", function (e) {
         if (typeof Event === "function") {
             window.dispatchEvent(new Event("resize"));
         } else {
-            var evt = window.document.createEvent("UIEvents");
+            let evt = window.document.createEvent("UIEvents");
             evt.initUIEvent("resize", true, false, window, 0);
             window.dispatchEvent(evt);
         }
@@ -117,7 +117,7 @@ jQuery(document).ready(function () {
         touchDrag: true,
     });
     jQuery("#slider_1").css("visibility", "visible");
-    var owl_goto = jQuery("#slider_1");
+    let owl_goto = jQuery("#slider_1");
     jQuery(".slider_1_goto1").click(function (event) {
         owl_goto.trigger("to.owl.carousel", 0);
     });
@@ -157,12 +157,12 @@ jQuery(document).ready(function () {
     jQuery(".slider_1_goto13").click(function (event) {
         owl_goto.trigger("to.owl.carousel", 12);
     });
-    var resize_21 = jQuery(".owl-carousel");
+    let resize_21 = jQuery(".owl-carousel");
     resize_21.on("initialized.owl.carousel", function (e) {
         if (typeof Event === "function") {
             window.dispatchEvent(new Event("resize"));
         } else {
-            var evt = window.document.createEvent("UIEvents");
+            let evt = window.document.createEvent("UIEvents");
             evt.initUIEvent("resize", true, false, window, 0);
             window.dispatchEvent(evt);
         }
@@ -184,13 +184,13 @@ window._wpemojiSettings = {
     },
 };
 !(function (e, a, t) {
-    var n,
+    let n,
         r,
         o,
         i = a.createElement("canvas"),
         p = i.getContext && i.getContext("2d");
-    function s(e, t) {
-        var a = String.fromCharCode;
+    const s = (e, t) => {
+        let a = String.fromCharCode;
         p.clearRect(0, 0, i.width, i.height),
             p.fillText(a.apply(this, e), 0, 0);
         e = i.toDataURL();
@@ -200,8 +200,8 @@ window._wpemojiSettings = {
             e === i.toDataURL()
         );
     }
-    function c(e) {
-        var t = a.createElement("script");
+    const c = (e) => {
+        let t = a.createElement("script");
         (t.src = e),
             (t.defer = t.type = "text/javascript"),
             a.getElementsByTagName("head")[0].appendChild(t);
