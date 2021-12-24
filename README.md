@@ -11,7 +11,7 @@ It's a simple web application to know about NFT info.
 </p>
 
 <p align="center">
-<img src="./assests/images/landing-page.png>
+<img src="./assests/images/landing-page.png">
 </p>
 
 ## Built With
